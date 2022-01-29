@@ -1,0 +1,24 @@
+{
+  "name": "alpha-subgraph",
+  "version": "1.0.0",
+  "repository": "https://github.com/cusdt-LINK/alpha-subgraph",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "codegen": "graph codegen --output-dir src/types/",
+    "build": "graph build",
+    "create-local": "graph create alpha/swap --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy alpha/swap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "create": "graph create alpha/swap --node https://thegraph.kcc.network/deploy/,
+    "deploy": "graph deploy alpha/swap --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.16.0",
+    "@graphprotocol/graph-ts": "^0.16.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
+  }
+}
