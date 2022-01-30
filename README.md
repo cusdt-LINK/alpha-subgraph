@@ -48,7 +48,7 @@ These contain specifc information about a transaction. Things like which pair tr
 
 ### Querying Aggregated AlphaSwap Data
 
-This queries the decimals, name, and symbol for the WKCS token.
+This queries the decimals, name, and symbol for the ALPHA token.
 
 ```graphql
 {
