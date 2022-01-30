@@ -2,7 +2,7 @@
 
 [AlphaSwap](https://swap.alphadao.money/) is a decentralized protocol for automated token exchange on the KCC network.
 
-This subgraph dynamically tracks any pair created by the AlphaSwap factory. It tracks of the current state of AlphaSwap contracts, and contains derived stats for things like historical data and USD prices.
+This subgraph dynamically tracks any pair created by the AlphaSwap factory. It tracks the current state of all AlphaSwap contracts, and contains derived stats for things like historical data and USD prices.
 
 - aggregated data across pairs and tokens,
 - data on individual pairs and tokens,
