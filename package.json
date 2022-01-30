@@ -8,7 +8,7 @@
     "build": "graph build",
     "create-local": "graph create alpha/swap --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy alpha/swap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "create": "graph create alpha/swap --node https://thegraph.kcc.network/deploy/,
+    "create": "graph create alpha/swap --node https://thegraph.kcc.network/deploy/",
     "deploy": "graph deploy alpha/swap --ipfs https://thegraph.kcc.network/ipfs/ --node https://thegraph.kcc.network/deploy/"
   },
   "devDependencies": {
