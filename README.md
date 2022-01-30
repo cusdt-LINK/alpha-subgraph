@@ -52,7 +52,7 @@ This queries the decimals, name, and symbol for the WKCS token.
 
 ```graphql
 {
-  token(id:"0x4446fc4eb47f2f6586f9faab68b3498f86c07521") {
+  token(id:"0x0490c1076552ed3c91876ead9f6a547b389e69d4") {
     symbol
     name
     decimals
@@ -66,9 +66,9 @@ This queries the decimals, name, and symbol for the WKCS token.
 {
   "data": {
     "token": {
-      "decimals": "18",
-      "name": "Wrapped KCS",
-      "symbol": "WKCS"
+      "decimals": "9",
+      "name": "AlphaDAO Token",
+      "symbol": "ALPHA"
     }
   }
 }
